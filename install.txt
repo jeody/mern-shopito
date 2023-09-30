@@ -1,0 +1,98 @@
+1. install-react-app
+>npx create-react-app
+
+2. install dependencies
+  "dependencies": {
+    "@paypal/react-paypal-js": "^7.8.3",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@stripe/react-stripe-js": "^1.16.4",
+    "@stripe/stripe-js": "^1.46.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.3",
+    "chart.js": "^4.3.0",
+    "dompurify": "^2.4.3",
+    "flutterwave-react-v3": "^1.3.0",
+    "framer-motion": "^10.12.18",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "rc-rate": "^2.12.0",
+    "rc-slider": "^10.2.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.0.1",
+    "react-confetti": "^6.1.0",
+    "react-confirm-alert": "^3.0.6",
+    "react-country-region-selector": "^3.6.1",
+    "react-datepicker": "^4.14.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-multi-carousel": "^2.8.4",
+    "react-paginate": "^8.1.4",
+    "react-quill": "^2.0.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.6.2",
+    "react-scripts": "5.0.1",
+    "react-star-ratings": "^2.3.0",
+    "react-toastify": "^9.1.1",
+    "sass": "^1.63.4",
+    "stripe": "^11.9.1",
+    "web-vitals": "^2.1.4"
+  },
+//one line install
+npm i axios chart.js dompurify flutterwave-react-v3 framer-motion html2canvas jspdf rc-rate rc-slider react-chartjs-2 react-confetti react-confirm-alert react-country-region-selector react-datepicker react-icons react-multi-carousel react-paginate react-quill react-redux react-router-dom react-star-ratings react-toastify sass stripe
+/////////////////
+npm i @paypal/react-paypal-js @reduxjs/toolkit @stripe/react-stripe-js @stripe/stripe-js
+
+3. BAckend folder
+>npm init -y
+
+//install nodemon
+>npm i nodemon -g
+
+4. install in Backen folder these dependencies
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.33.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mailgen": "^2.0.27",
+    "mongoose": "^6.8.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.0",
+    "slugify": "^1.6.6",
+    "stripe": "^12.3.0"
+  }
+
+//one line install
+npm i axios bcryptjs cloudinary cookie-parser cors dotenv express express-async-handler jsonwebtoken mailgen mongoose multer nodemailer slugify stripe
+
+//mongo db
+database = mern-shop
+username = jhungulle
+password = SGD2vrp3YYQvLpEJ
+
+//MONGO_URI=mongodb+srv://jhungulle:SGD2vrp3YYQvLpEJ@cluster0.rto5mri.mongodb.net/mern-shop?retryWrites=true&w=majority
+
+//Sign-Up to https://imgbb.com/
+>sign-up with google account
+account= https://jhun-gulle.imgbb.com/
+
+
+//CLoudinary account for uploading of pictures
+Cloud Name 	: dzewlztjn
+API Key 	: 722217571668979
+API Secret	: xUTRrVhysb0NWEOC_CR_b5J35Yw
+
+REACT_APP_CLOUD_NAME=dzewlztjn
+REACT_APP_UPLOAD_PRESET=soosdtlo
+
+API Environment Variable:
+CLOUDINARY_URL=cloudinary://722217571668979:xUTRrVhysb0NWEOC_CR_b5J35Yw@dzewlztjn
+
+
